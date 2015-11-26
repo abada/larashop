@@ -2,7 +2,7 @@
 LaraShop is a simple SHOP CMS based on Laravel framework.
 Temporarily available at russian language, in planned english.
 
-<h4>Perferences</h4>
+<h4>Features</h4>
 - Shopping cart
 - Gallery page
 - Catalogs & Products and their orders
@@ -10,6 +10,7 @@ Temporarily available at russian language, in planned english.
 - Admin dashboard
 - Mailing
 - Orders statuses and mailing
+- SEO nice URLs & AUTO-SITEMAP http://[url]/sitemap.xml
 
 
 <h4>Installation</h4>
