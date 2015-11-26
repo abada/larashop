@@ -6,6 +6,7 @@ Temporarily available at russian language, in planned english.
 - Shopping cart
 - Gallery page
 - Catalogs & Products and their orders
+- Product comments
 - Purchase form (ajax)
 - Admin dashboard
 - Mailing
