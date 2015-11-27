@@ -115,7 +115,7 @@ class HomeController extends Controller
         
         $orderItems = OrderItems::whereOrder_id($order->id)->get();
         
-        ($order->delivery_np == 'np') ? $delivery_type = 'Склад Новая Почта' : $delivery_type = 'Курьерская доставка по адресу';
+        ($order->delivery_type == 'np') ? $delivery_type = 'Склад Новая Почта' : $delivery_type = 'Курьерская доставка по адресу';
         
         //'nal','privat24','privat_terminal','liqpay'
         switch ($order->pay_type) {
