@@ -50,7 +50,7 @@
                                                     src="{{ asset('dist/img/boxed-bg.png') }}"
                                                     @endif
                                                 ></td>
-                                                <td style="width: 300px;    vertical-align: inherit;">{{$product->name}}<br> <small>cat</small></td>
+                                                <td style="width: 300px;    vertical-align: inherit;">{{$product->name}}<br> <small>{{$product->category->name}}</small></td>
                                                 <td>
 
                                                 </td>

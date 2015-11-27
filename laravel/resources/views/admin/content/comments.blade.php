@@ -43,7 +43,7 @@
                                             @if($comment->approve == 'true') success @else default @endif
                                             "><td style="width: 100px; "><img style=" max-height: 100px; " src="{{asset('files/products/img/small/'.$comment->product->cover)}}" alt="..." class="img-responsive"></td>
                                             <td>
-                                                <a href="{!! URL::to('/'.$comment->product->name.'.html'); !!}">
+                                                <a href="{!! URL::to('/'.$comment->product->urlhash.'.html'); !!}">
                                                 {{$comment->product->name}}
                                                 </a>
                                             </td>
