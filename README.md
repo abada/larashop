@@ -1,4 +1,5 @@
-# Larashop
+![Larashop](https://raw.githubusercontent.com/rustem-art/larashop/master/gitimgs/logo.png "LaraShop") 
+# LaraShop
 LaraShop is a simple SHOP CMS based on Laravel framework.
 Temporarily available at russian language, in planned english.
 
