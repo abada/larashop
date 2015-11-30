@@ -17,6 +17,7 @@ use Validator;
 use Mail;
 use Setting;
 use Input;
+use Visitor;
 
 //namespace NovaPoshta;
 Use NovaPoshta\Config;
@@ -433,14 +434,15 @@ class PurchaseController extends Controller
     //showMail
     public function showMail() {
         
-        $data = [];
+/*        $data = [];
         
         Mail::queue('mail.neworder', $data, function ($message) {
             $message->from('info@it-toys.com', 'Larashop');
             $message->subject('LaraShop');
             $message->to('info@zenlix.com');
         });
-        
+        */
+Visitor::log();
         return 'ok';
     }
     

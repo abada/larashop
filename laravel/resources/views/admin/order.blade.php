@@ -12,7 +12,7 @@
         <section class="content-header">
             <h1>
             Заказ {{$order->code }}
-            <small> от {{ LocalizedCarbon::parse($order->created_at)->format('d M Y H:i:s') }}</small>
+            <small> от {!! LocalizedCarbon::instance($order->created_at)->formatLocalized('%d %%f %Y, %H:%M') !!}</small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="{{URL::to('/')}}">{{Setting::get('config.sitename')}}</a></li>
@@ -55,6 +55,11 @@
                                                         <td><small>Моб:</small></td>
                                                         <td><small>{{$order->client->tel}}</small></td>
                                                     </tr>
+                                                    <tr>
+                                                        <td><small>E-mail:</small></td>
+                                                        <td><small>{{$order->client->email}}</small></td>
+                                                    </tr>
+
                                                 </tbody>
                                             </table>
                                         </div>

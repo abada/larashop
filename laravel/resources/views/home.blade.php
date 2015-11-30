@@ -8,7 +8,6 @@
         <div class="row" style=" padding-top: 50px; ">
             <div class="col-sm-6">
                 <div class="jumbotron">
-
                     <img src="
                     {!! $mainProdImg or asset('dist/img/photo4.jpg'); !!}
                     " alt="" class="img-responsive" style="margin: 0 auto; max-width:460px;">

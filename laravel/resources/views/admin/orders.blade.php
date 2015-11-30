@@ -57,7 +57,7 @@
                                                 </a>
                                             </em></center></td>
                                             <td><center><span data-toggle="tooltip"  data-placement="right" title="
-                                                {{ LocalizedCarbon::parse($order->created_at)->format('d M Y H:i:s') }}
+                                            {!! LocalizedCarbon::instance($order->created_at)->formatLocalized('%d %%f %Y, %H:%M') !!}
                                                 ">
                                             <small>{{ LocalizedCarbon::instance($order->created_at)->diffForHumans() }}</small></span></center></td>
                                             <td><center>
